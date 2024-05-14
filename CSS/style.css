@@ -1,0 +1,318 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/*BODY*/
+
+body {
+  	font-family: "Roboto", sans-serif;
+  	font-style: normal;
+  	overflow-x: hidden;
+}
+
+header {
+	width: 100vw;
+	height: auto;
+	background-color: black;
+	display:flex;
+	justify-content:space-between;
+	padding: 2% 5% 2% 4%;
+}
+
+#logotip {
+	width: 40%;
+	height: auto;
+}
+
+#logotip img{
+	width: 30%;
+	min-width: 180px;
+}
+
+nav {
+	width: 50%;
+	display:flex;
+	justify-content:space-evenly;
+	flex-direction:row;
+}
+
+
+
+/*MENU*/
+
+#menu {
+	width: auto;
+	height: 100%;
+	list-style:none;
+	display:flex;
+	padding:1vh;
+}
+
+.linksmenu {
+	width: auto;
+	margin: 0px 10px;
+	font-family: "Quicksand", sans-serif;
+}
+
+.linksmenu a {
+	text-decoration:none;
+	color: white;
+	font-size: 1.2rem;
+	border-radius: 16px;
+	padding:4vh;
+} 
+
+.linksmenu a:hover{
+	text-decoration-line: underline;
+	text-decoration-thickness: 2px 
+}
+
+#hero {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	display:flex;
+	color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+#about {
+	background-color: white;
+	display: flex;
+}
+
+#about img {
+    min-width: 70vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+	#about {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	}
+}
+
+.about2 {
+    padding: 2vh;
+/*    width: 100vw;*/
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+.sobreaquestfestival {
+	width: 	50%;
+	padding-right:2%;
+}
+
+.benvingutsalfestival {
+	width: 	50%;
+	padding-left:2%;
+}
+
+
+
+
+/*FOOTER*/
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 2% 10% 4% 5%
+}
+
+.footer-caixa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 25%;
+  padding: 2%;
+}
+
+.footer-section h2 {
+  color: #fff;
+  margin-top:10%;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/*GRUPS*/
+
+#grups {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 5% 10% 5% 10%;
+}
+
+.grup {
+	width: 40%;
+	height: auto;
+	padding-bottom: 10%;
+}
+
+.grup img {
+	width: 100%;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+/*CONTACTE*/
+
+.contacte{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 7% 10% 5% 10%;
+}
+
+.formulari{
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+.mapa{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 2%;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		flex-direction:column;
+		padding-top:10%;
+	}
+
+	nav {
+.linksmenu a 
+			font-size: 2rem;
+			line-height:4rem;
+		
+	}
+
+	#logotip img{
+		height: auto;
+		width: 50%;
+	}
+
+	#menu {
+		display:flex;
+		flex-direction:column;
+	}
+
+	#about {
+		flex-direction:column;
+		padding-top:20%;
+		padding-bottom:20%;
+	}
+
+    .sobreaquestfestival {
+    	width: 	100%;
+    } 
+
+    .benvingutsalfestival {
+    	width: 	100%;
+    	padding-top:2%;
+    }
+
+    #grups {
+	display: flex;
+	flex-direction: column;
+	}
+	
+	.grup {
+	width: 100%;
+	height: auto;
+	}
+
+	.container{
+    flex-wrap: wrap;
+    padding: 5%;
+	}
+
+    .footer-caixa {
+    	flex-direction:column;
+    }
+
+    .footer-section {
+    	width: 100%;
+    }
+
+    p {
+    	font-size: 1.5rem;
+    }
+    
+
+    a {
+    	font-size: 1rem;
+	}
+
+	a:hover {
+    	font-size: 1rem;
+    	text-decoration-line: underline;
+	}
+	}
+
